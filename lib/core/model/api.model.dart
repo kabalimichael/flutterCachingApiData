@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-ApiResponse apoResponseFromJson(String str) =>
+ApiResponse apiResponseFromJson(String str) =>
     ApiResponse.fromJson(json.decode(str));
 
 String apiResponseToJson(ApiResponse data) => json.encode(data.toJson());
